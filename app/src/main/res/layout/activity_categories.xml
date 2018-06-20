@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/music"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.example.android.musicparty.Categories">
+
+    <Button
+        android:id="@+id/songs"
+        android:layout_width="130dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="#701c1c"
+        android:text="Songs"
+        android:textAllCaps="true"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/music"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="#1759c4"
+        android:text="Relax Music"
+        android:textAllCaps="true"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+</LinearLayout>
